@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento Style Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="task7.1.css">
+</head>
+<body>
+    <div class="grid-container">
+        <!-- Box 1: Profile -->
+        <div class="box" style="grid-area: box-1">
+            <div class="intro-container">
+                <img src="pictures/lil.jpg" alt="Lyle March" class="profile-img">
+                <div class="intro-text">
+                    <div class="name-row">
+                        <h1>Lyle March B. Zambo</h1>
+                        <span class="pronouns">She/Her</span>
+                    </div>
+                    <p class="title">CS Student & Aspiring Web Developer</p>
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Davao City, Philippines
+                    </p>
+                    <div class="contact-buttons">
+                        <a href="https://github.com/itzmelil" class="btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i> Github
+                        </a>
+                        <a href="mailto:zlylemarch31@gmail.com" class="btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-envelope"></i> Email me
+                        </a>
+                        <a href="https://www.facebook.com/lalay.zambo" class="btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-facebook"></i> Facebook
+                        </a>
+                        <a href="https://wa.me/639460518477" class="btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="university">
+                    <img src="pictures/um_logo.png" alt="univ logo" class="uni-logo">
+                    <span>University of Mindanao</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Box 2: About Me -->
+        <div class="box" style="grid-area: box-2">
+            <h2><i class="fa-solid fa-user"></i> About me</h2>
+            <p>I am a beginner web developer currently learning HTML, CSS, Bootstrap, and JavaScript. I enjoy building clean and responsive websites while exploring the world of Computer Science! 🚀</p>
+            <p>I love creating cool stuff with code and design, and I'm always eager to learn new technologies and improve my skills.</p>
+        </div>
+
+        <!-- Box 3: Tech Stack -->
+        <div class="box" style="grid-area: box-3">
+            <h2><i class="fa-solid fa-layer-group"></i> Tech Stack</h2>
+            <h5>Frontend</h5>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Bootstrap</span>
+            </div>
+            <h5>Backend</h5>
+            <div class="skills">
+                <span class="skill">Python</span>
+                <span class="skill">MySQL</span>
+            </div>
+            <h5>Developer Tools</h5>
+            <div class="skills">
+                <span class="skill">Git</span>
+                <span class="skill">Github</span>
+                <span class="skill">VS Code</span>
+                <span class="skill">Figma</span>
+            </div>
+        </div>
+
+        <!-- Box 4: Education -->
+        <div class="box box-4-tall" style="grid-area: box-4">
+            <h2><i class="fa-solid fa-user-graduate"></i> Education</h2>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <p>University of Mindanao • Present</p>
+            <p>Currently pursuing a degree in Computer Science, focusing on Software Development and Web Development</p>
+            <hr>
+
+            <h4>Senior High School</h4>
+            <p>Digos City National High School • 2018-2021</p>
+            <p>Discovered my interest in technology</p>
+            <hr>
+
+            <h4>Junior High School</h4>
+            <p>Digos City National High School • 2018</p>
+            <hr>
+
+            <h4>Elementary</h4>
+            <p>Ramon Magsaysay Central Elementary School • 2015</p>
+        </div>
+
+        <!-- Box 5: Hobbies -->
+        <div class="box" style="grid-area: box-5">
+            <h2><i class="fa-solid fa-heart"></i> Hobbies</h2>
+            <h4><i class="fa-solid fa-code"></i> Coding & Design</h4>
+            <p>I love creating cool stuff with code and exploring web design. Building responsive websites and learning new technologies excites me!</p>
+
+            <h4><i class="fa-solid fa-gamepad"></i> Gaming</h4>
+            <p>When I'm not coding, I enjoy playing games and exploring virtual worlds that inspire my creativity.</p>
+
+            <h4><i class="fa-solid fa-laptop-code"></i> Tech Exploration</h4>
+            <p>Always curious about new technologies, frameworks, and tools that can help me become a better developer.</p>
+        </div>
+        
+        <!-- Box 6: Projects -->
+        <div class="box" style="grid-area: box-6">
+            <div class="projects">
+                <div class="projects-header">
+                    <h2><i class="fa-solid fa-list-check"></i> Recent Projects</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <a href="https://www.figma.com/design/Vi0vbtYr6arPhr1ThJFQx4/SOFTDEV?t=ry7ximem0Oc6aaIO-0" class="project-card" style="margin-bottom: 1rem;" target="_blank" rel="noopener noreferrer">
+                    <h4>AquaSparkle</h4>
+                    <p>Software Development Project using Python for water management system.</p>
+                </a>
+                <a href="https://www.figma.com/design/38PwIfVDjdGivdd4dYTVKO/INFO-MANAGEMENT?node-id=0-1&p=f&t=wSkerFKKxJ1s2qm6-0" class="project-card" style="margin-bottom: 1rem;" target="_blank" rel="noopener noreferrer">
+                    <h4>RSB Consumer Goods Trading</h4>
+                    <p>Information Management system designed in Figma for inventory tracking.</p>
+                </a>
+                <a href="https://www.pdffiller.com/s/BX-RlD-n" class="project-card" target="_blank" rel="noopener noreferrer">
+                    <h4>AquaSense</h4>
+                    <p>Grade 12 Research project focusing on water quality monitoring.</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Box 7: Certifications -->
+        <div class="box" style="grid-area: box-7">
+            <div class="certifications">
+                <div class="cert-header">
+                    <h2><i class="fa-solid fa-certificate"></i> Recent Certifications</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h4>Introduction to Python</h4>
+                        <p>Completed foundational Python programming course</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h4>Python Intermediate</h4>
+                        <p>Advanced Python programming concepts and techniques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Created with ❤️ by Lyle March B. Zambo | © 2026</p>
+        </div>
+    </footer>
+
+</body>
+</html>
